@@ -1,7 +1,6 @@
 package dev.siro256.modelio
 
 data class Model(
-    val materials: List<String>,
     val objects: List<Object>,
 ) {
     data class Object(
@@ -10,7 +9,7 @@ data class Model(
     )
 
     data class Face(
-        val material: Int?,
+        val material: String?,
         val first: Vertex,
         val second: Vertex,
         val third: Vertex,
