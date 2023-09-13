@@ -1,5 +1,7 @@
 package dev.siro256.modelio
 
+import java.util.Optional
+
 data class Model(
     val objects: List<Object>,
 ) {
@@ -18,7 +20,7 @@ data class Model(
 
     data class Vertex(
         val coordinate: Vector3f,
-        val normal: Vector3f,
+        val normal: Optional<Vector3f>,
         val uv: Vector2f?,
     )
 
