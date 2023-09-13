@@ -10,6 +10,7 @@ data class Model(
 
     data class Face(
         val material: String?,
+        val faceNormal: Vector3f,
         val first: Vertex,
         val second: Vertex,
         val third: Vertex,
