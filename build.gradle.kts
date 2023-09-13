@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "dev.siro256.modelio"
-version = "0.1.0-SNAPSHOT"
+version = "0.1.0"
 
 repositories {
     maven { url = uri("https://repo.siro256.dev/repository/maven-public/") }
