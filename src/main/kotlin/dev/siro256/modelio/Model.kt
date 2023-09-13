@@ -11,7 +11,7 @@ data class Model(
     )
 
     data class Face(
-        val material: String?,
+        val material: Optional<String>,
         val faceNormal: Vector3f,
         val first: Vertex,
         val second: Vertex,
@@ -21,7 +21,7 @@ data class Model(
     data class Vertex(
         val coordinate: Vector3f,
         val normal: Optional<Vector3f>,
-        val uv: Vector2f?,
+        val uv: Optional<Vector2f>,
     )
 
     data class Vector2f(
