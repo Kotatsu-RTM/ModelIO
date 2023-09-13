@@ -98,7 +98,7 @@ publishing {
                 if (version.toString().endsWith("SNAPSHOT")) {
                     uri("https://repo.siro256.dev/repository/maven-snapshots")
                 } else {
-                    uri("https://repo.siro256.dev/repository/maven-public")
+                    uri("https://repo.siro256.dev/repository/maven-releases")
                 }
             credentials {
                 username = System.getenv("RepositoryUsername")
